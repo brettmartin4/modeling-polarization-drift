@@ -1,0 +1,4 @@
+time_utc,run_id,step,error,message
+2026-10-10T23:16:54.937376+00:00,2MIN__REXD_FWD_1200_SAVGOL__lstm_tuned,train,ValueError,Input contains NaN.
+2026-10-11T11:11:24.338466+00:00,2MIN__RSTDEV_FWD_1200__lstm_tuned,tscv,ValueError,Input contains NaN.
+2026-10-11T16:34:40.914393+00:00,2MIN__RSTDEV_FWD_1200__lstm_tuned,tscv,ValueError,Input contains NaN.
