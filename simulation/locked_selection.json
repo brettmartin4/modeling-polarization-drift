@@ -1,0 +1,20 @@
+{
+  "sampling": "2MIN",
+  "target": "REXD_FWD_1200_DSMAX",
+  "model": "rnn_baseline",
+  "model_family": "nn",
+  "metric": "REXD",
+  "window_samples": 1200,
+  "variant": "DSMAX",
+  "lead_s": 0,
+  "window_start_offset_s": 0.0,
+  "window_end_offset_s": 240.0,
+  "tolerance": 0.1,
+  "decision_threshold": 0.1,
+  "event_merge_gap_s": 60,
+  "selection_metric": "pr_auc",
+  "selection_value_validation": 0.9131753544213694,
+  "n_candidates": 1152,
+  "created_utc": "2026-10-19T12:40:01.903440+00:00",
+  "note": "Written by PAPER_RESULTS. Selected from validation-period simulation only; the test period was not used."
+}
