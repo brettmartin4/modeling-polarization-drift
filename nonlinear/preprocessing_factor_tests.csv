@@ -1,0 +1,9 @@
+factor,metric,test,levels,n_blocks,statistic,p_value,significant
+sampling frequency,validation_r2,Friedman,"['1MIN', '2MIN', '30SEC']",384,129.390625,8.00170942378698e-29,True
+sampling frequency,validation_rmse,Friedman,"['1MIN', '2MIN', '30SEC']",384,65.33333333333303,6.50199939116871e-15,True
+window_samples,validation_r2,Friedman,"['300', '600', '1200']",384,120.16145833333303,8.077386313672514e-27,True
+window_samples,validation_rmse,Friedman,"['300', '600', '1200']",384,688.380208333333,3.3123562112323507e-150,True
+variant,validation_r2,Friedman,"['DEC', 'DSAVG', 'DSMAX', 'SAVGOL']",288,34.24166666666679,1.7615836466305348e-07,True
+variant,validation_rmse,Friedman,"['DEC', 'DSAVG', 'DSMAX', 'SAVGOL']",288,658.395833333333,2.2029420097798686e-142,True
+metric,validation_r2,Wilcoxon,"['REXD', 'RSTDEV']",576,62678.0,3.25912304228263e-07,True
+metric,validation_rmse,Wilcoxon,"['REXD', 'RSTDEV']",576,2292.0,6.525061229345375e-91,True
